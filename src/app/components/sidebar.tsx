@@ -2,19 +2,19 @@
 
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
-import { FaLinkedin, FaInstagram, FaGithub, FaHome, FaUser, FaBriefcase, FaEnvelope } from 'react-icons/fa';
+import { FaLinkedin, FaInstagram, FaGithub, FaHome, FaUser, FaBriefcase, FaEnvelope, FaTools } from 'react-icons/fa';
 
 const Sidebar = () => {
   const [activeSection, setActiveSection] = useState('');
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'about', 'portfolio', 'contact'];
+      const sections = ['home', 'about', 'portfolio', 'skills', 'contact'];
       let currentSection = '';
 
       sections.forEach((section) => {
         const element = document.getElementById(section);
-        if (element && window.scrollY >= element.offsetTop - 60) {
+        if (element && window.scrollY >= element.offsetTop - 100) {
           currentSection = section;
         }
       });
@@ -86,6 +86,15 @@ const Sidebar = () => {
             className={`w-full flex items-center justify-center text-center py-2 rounded hover:text-[#489BD7]`}
           >
             <FaBriefcase className={`mr-2 ${activeSection === 'portfolio' ? 'text-[#489BD7]' : ''}`} /> Portfolio
+          </a>
+        </li>
+        <li className="mb-4">
+          <a
+            href="#skills"
+            onClick={(e) => handleClick(e, 'skills')}
+            className={`w-full flex items-center justify-center text-center py-2 rounded hover:text-[#489BD7]`}
+          >
+            <FaTools className={`mr-2 ${activeSection === 'skills' ? 'text-[#489BD7]' : ''}`} /> Skills
           </a>
         </li>
         <li className="mb-4">

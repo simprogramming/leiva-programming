@@ -1,6 +1,7 @@
 import Home from "./Home"
 import About from "./About"
 import Portfolio from "./Portfolio";
+import Skills from "./Skills";
 import Image from 'next/image';
 
 const ContentWrapper = () => {
@@ -21,7 +22,8 @@ const ContentWrapper = () => {
         <Home />
         <About />
         <Portfolio />
-        <section id="contact" className="h-screen bg-">Contact Content</section>
+        <Skills />
+        <section id="contact" className="h-screen bg-black">Contact Content</section>
       </div>
     </div>
   );
