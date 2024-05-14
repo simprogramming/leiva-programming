@@ -16,7 +16,7 @@ const ContentWrapper = () => {
           className="w-full h-full"
         />
       </div>
-      <div className="relative ml-[16.6667%] w-[83.3333%] z-10 bg-transparent">
+      <div className="relative ml-[16.6667%] w-[83.3333%] z-10">
         <Home />
         <About />
         <section id="portfolio" className="h-screen bg-gray-900">Portfolio Content</section>
