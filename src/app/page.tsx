@@ -1,7 +1,12 @@
+import Sidebar from "./components/Sidebar"
+import ContentWrapper from "./components/ContentWrapper"
+
+
 export default function Home() {
   return (
-    <main>
-      <h1>Hello leiva</h1>
+    <main className="flex">
+      <Sidebar />
+      <ContentWrapper />
     </main>
   );
 }
