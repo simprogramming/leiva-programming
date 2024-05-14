@@ -1,5 +1,6 @@
 import Home from "./Home"
 import About from "./About"
+import Portfolio from "./Portfolio";
 import Image from 'next/image';
 
 const ContentWrapper = () => {
@@ -19,7 +20,7 @@ const ContentWrapper = () => {
       <div className="relative ml-[16.6667%] w-[83.3333%] z-10">
         <Home />
         <About />
-        <section id="portfolio" className="h-screen bg-gray-900">Portfolio Content</section>
+        <Portfolio />
         <section id="contact" className="h-screen bg-">Contact Content</section>
       </div>
     </div>
