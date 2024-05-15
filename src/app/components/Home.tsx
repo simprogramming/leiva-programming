@@ -28,7 +28,7 @@ function Home() {
           I&apos;m <span className="typed relative inline-block border-b-2 border-blue-500"></span>
         </p>
       </div>
-      <div className="absolute bottom-20 lg:bottom-10 w-full flex justify-center animate-bounce">
+      <div className="absolute mb-10 lg:mb-5 bottom-20 lg:bottom-10 w-full flex justify-center animate-bounce">
         <svg className="w-20 h-20 text-white lg:text-blue-900" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
         </svg>
