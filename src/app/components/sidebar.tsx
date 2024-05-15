@@ -29,7 +29,7 @@ const Sidebar = () => {
     };
   }, []);
 
-  const handleClick = (e, section) => {
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>, section: string) => {
     e.preventDefault();
     const element = document.getElementById(section);
     if (element) {

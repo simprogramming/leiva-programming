@@ -6,7 +6,7 @@ function About() {
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl font-bold text-blue-900 mb-6">About</h2>
         <p className="text-lg text-gray-700 mb-6">
-          I am a curious and adventurous individual who loves to explore the world, travel, learn, and discover new things. Whether I'm hiking to the top of a hill in British Columbia or delving into the latest tech trends, my passion for discovery drives me. Captured at the summit after an 10-hour hike, the photo is a testament to my perseverance and love for adventure. As a web developer, I bring this same curiosity and drive to every project, always eager to tackle new challenges and deliver innovative solutions.
+          I am a curious and adventurous individual who loves to explore the world, travel, learn, and discover new things. Whether I&apos;m hiking to the top of a hill in British Columbia or delving into the latest tech trends, my passion for discovery drives me. Captured at the summit after an 10-hour hike, the photo is a testament to my perseverance and love for adventure. As a web developer, I bring this same curiosity and drive to every project, always eager to tackle new challenges and deliver innovative solutions.
         </p>
         <div className="flex flex-col md:flex-row mb-6">
           <div className="w-full md:w-1/2 mb-4 md:mb-0">
@@ -21,7 +21,7 @@ function About() {
           <div className="w-full md:w-1/2 md:pl-8">
             <h3 className="text-2xl font-semibold text-blue-900 mb-2">Full Stack Web Developer</h3>
             <p className="text-lg text-gray-700 mb-4">
-              I specialize in creating responsive, dynamic web applications that meet clients' needs and exceed their expectations.
+              I specialize in creating responsive, dynamic web applications that meet clients&apos; needs and exceed their expectations.
             </p>
             <ul className="text-lg text-gray-700 mb-4">
               <li><strong>City:</strong> Montreal</li>

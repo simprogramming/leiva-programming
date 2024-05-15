@@ -78,7 +78,7 @@ function Portfolio() {
 
         <div>
           <h3 className="text-3xl font-semibold mb-6 flex items-center">
-            L'Effet Monstre
+            L&apos;Effet Monstre
             <a
               href="https://www.effetmonstre.com/"
               target="_blank"
