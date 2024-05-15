@@ -23,8 +23,8 @@ function Home() {
   return (
     <section id="home" className="relative h-screen pb-20">
       <div className="absolute inset-0 flex flex-col items-center lg:items-start justify-start pt-[25%] lg:pt-[8%] lg:pl-[37%]">
-        <h1 className="text-white text-5xl md:text-5xl lg:text-6xl font-bold text-center lg:text-left">Simon Leiva</h1>
-        <p className="text-white text-3xl font-medium mt-4 text-center lg:text-left relative">
+        <h1 className="text-white text-4xl md:text-5xl lg:text-6xl font-bold text-center lg:text-left">Simon Leiva</h1>
+        <p className="text-white text-2xl lg:text-3xl font-medium mt-4 text-center lg:text-left relative">
           I&apos;m <span className="typed relative inline-block border-b-2 border-blue-500"></span>
         </p>
       </div>

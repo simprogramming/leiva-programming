@@ -1,9 +1,11 @@
 import Image from 'next/image';
+import SocialMediaIcons from './SocialMediaIcons';
 
 function About() {
   return (
-    <section id="about" className="min-h-screen bg-white p-8 pt-20 pb-20">
+    <section id="about" className="min-h-screen bg-white p-8 pt-12 pb-20">
       <div className="max-w-7xl mx-auto">
+        <SocialMediaIcons />
         <h2 className="text-4xl font-bold text-blue-900 mb-6">About</h2>
         <p className="text-lg text-gray-700 mb-6">
           I am a curious and adventurous individual who loves to explore the world, travel, learn, and discover new things. Whether I&apos;m hiking to the top of a hill in British Columbia or delving into the latest tech trends, my passion for discovery drives me. Captured at the summit after an 10-hour hike, the photo is a testament to my perseverance and love for adventure. As a web developer, I bring this same curiosity and drive to every project, always eager to tackle new challenges and deliver innovative solutions.

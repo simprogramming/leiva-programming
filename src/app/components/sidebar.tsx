@@ -1,5 +1,5 @@
 "use client";
-
+import SocialMediaIcons from './SocialMediaIcons';
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { FaLinkedin, FaInstagram, FaGithub, FaHome, FaUser, FaBriefcase, FaEnvelope, FaTools, FaBars } from 'react-icons/fa';
