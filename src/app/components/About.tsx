@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 function About() {
   return (
-    <section id="about" className="h-screen bg-white p-8">
+    <section id="about" className="min-h-screen bg-white p-8 pt-20 pb-20">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl font-bold text-blue-900 mb-6">About</h2>
         <p className="text-lg text-gray-700 mb-6">

@@ -21,8 +21,8 @@ function Home() {
   }, []);
 
   return (
-    <section id="home" className="relative h-screen">
-      <div className="absolute inset-0 flex flex-col items-start justify-start pt-[9%] pl-[37%]">
+    <section id="home" className="relative h-screen pb-20">
+      <div className="absolute inset-0 flex flex-col items-start justify-start pt-[20%] pl-[10%] lg:pt-[9%] lg:pl-[37%]">
         <h1 className="text-white text-6xl font-bold">Simon Leiva</h1>
         <p className="text-white text-3xl font-medium mt-4 relative">
           I'm <span className="typed relative inline-block border-b-2 border-blue-500"></span>

@@ -51,20 +51,26 @@ function Portfolio() {
   ];
 
   return (
-    <section id="portfolio" className="min-h-screen bg-gray-900 text-white p-8">
+    <section id="portfolio" className="min-h-screen bg-customLightBlue text-customDarkBlue p-8">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl font-bold mb-12 text-center">Portfolio</h2>
+        <h2 className="text-4xl font-bold mb-12 text-center mt-10">Portfolio</h2>
 
         <div className="mb-12">
           <h3 className="text-3xl font-semibold mb-6">Freelancing</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {freelanceProjects.map((project, index) => (
-              <a key={index} href={project.link} target="_blank" rel="noopener noreferrer" className="group block p-6 rounded-lg bg-gray-800 hover:bg-gray-700 transition">
+              <a 
+                key={index} 
+                href={project.link} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="group block p-6 rounded-lg bg-white hover:bg-customGray transition shadow-md"
+              >
                 <div className="flex items-center justify-center mb-4">
                   <Image src={project.logo} alt={project.name} width={80} height={80} />
                 </div>
-                <h4 className="text-xl mb-2 font-bold text-center">{project.name}</h4>
-                <p className="text-sm text-center">{project.description}</p>
+                <h4 className="text-xl mb-2 font-bold text-center text-customDarkBlue">{project.name}</h4>
+                <p className="text-sm text-center text-customDarkBlue">{project.description}</p>
               </a>
             ))}
           </div>
@@ -84,12 +90,18 @@ function Portfolio() {
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {effetMonstreProjects.map((project, index) => (
-              <a key={index} href={project.link} target="_blank" rel="noopener noreferrer" className="group block p-6 rounded-lg bg-gray-800 hover:bg-gray-700 transition">
+              <a 
+                key={index} 
+                href={project.link} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="group block p-6 rounded-lg bg-white hover:bg-customGray transition shadow-md"
+              >
                 <div className="flex items-center justify-center mb-4">
                   <Image src={project.logo} alt={project.name} width={80} height={80} />
                 </div>
-                <h4 className="text-xl mb-2 font-bold text-center">{project.name}</h4>
-                <p className="text-sm text-center">{project.description}</p>
+                <h4 className="text-xl mb-2 font-bold text-center text-customDarkBlue">{project.name}</h4>
+                <p className="text-sm text-center text-customDarkBlue">{project.description}</p>
               </a>
             ))}
           </div>

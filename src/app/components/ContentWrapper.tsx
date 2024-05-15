@@ -5,10 +5,9 @@ import Skills from "./Skills";
 import Image from 'next/image';
 
 const ContentWrapper = () => {
-
   return (
-    <div className="flex-1 text-white ">
-      <div className="fixed top-0 left-[16.6667%] w-[83.3333%] h-screen z-0">
+    <div className="flex-1 text-white mt-20 lg:mt-0">
+      <div className="fixed top-0 left-0 w-full h-screen z-0 lg:left-[16.6667%] lg:w-[83.3333%]">
         <Image
           src="/beach.jpg"
           alt="Background Image"
@@ -18,16 +17,14 @@ const ContentWrapper = () => {
           className="w-full h-full"
         />
       </div>
-      <div className="relative ml-[16.6667%] w-[83.3333%] z-10">
+      <div className="relative w-full lg:w-[83.3333%] lg:ml-[16.6667%] z-10">
         <Home />
         <About />
         <Portfolio />
         <Skills />
-        <section id="contact" className="h-screen bg-black">Contact Content</section>
       </div>
     </div>
   );
 };
 
 export default ContentWrapper;
-
