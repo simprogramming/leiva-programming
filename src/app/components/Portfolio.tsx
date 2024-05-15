@@ -10,7 +10,7 @@ function Portfolio() {
       description: 'Interactive Restaurant Menu'
     },
     {
-      logo: '/logo/LogoAtie&Hatietspbg.png',
+      logo: '/logo/atiehatie.png',
       name: 'Atie & Hatie',
       link: 'https://www.atiehatie.com/',
       description: 'E-Commerce Solution'
@@ -25,7 +25,7 @@ function Portfolio() {
 
   const effetMonstreProjects = [
     {
-      logo: '/logo/pdq.jpeg',
+      logo: '/logo/pdq.png',
       name: 'Les Produits du Québec',
       link: 'https://lesproduitsduquebec.com/',
       description: 'Non-Profit Organization in Quebec'
