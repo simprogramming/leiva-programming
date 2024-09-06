@@ -32,7 +32,7 @@ function About() {
               <li><strong>Languages:</strong> French, English, Spanish</li>
             </ul>
             <p className="text-lg text-gray-700">
-              With a unique blend of technical expertise and creative vision, I’m passionate about crafting high-quality, visually appealing web solutions that drive results and help businesses thrive in the digital world.
+              Results-driven Full Stack web developer with nearly five years of hands-on experience, blending self-taught expertise in computer science with a deep passion for innovation. I have successfully led the end-to-end development of complex web applications, from concept to launch. Proficient in Ruby on Rails and Next.js, I specialize in building scalable, high-performance systems that meet the evolving needs of modern businesses. My technical proficiency spans SQL, APIs, external libraries, and microservices, ensuring secure, optimized code. A natural leader and mentor, I thrive in collaborative environments, driving continuous improvement and delivering impactful results across multidisciplinary teams.
             </p>
           </div>
         </div>
