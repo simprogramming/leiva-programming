@@ -40,10 +40,9 @@ function Skills() {
             With extensive experience managing diverse projects, I focus on streamlining workflows and enhancing team collaboration. I rely on tools like Jira, Bitbucket, GitHub, and various testing frameworks to keep projects on track and ensure top-notch quality. I believe in open, transparent communication with clients and team members, fostering a collaborative environment where everyone feels heard. 
           </p>
           <p className="text-lg text-gray-700 mb-4">
-            My approach emphasizes setting clear expectations, delivering on time, and staying within budget, all while maintaining the flexibility to adapt to new challenges. Whether it's contract negotiation or functional analysis, I approach each task with a growth mindset, always striving to improve. This mindset not only ensures high standards but also makes me an asset to any team, ready to contribute to the success of projects and continuously evolve.
+            My approach emphasizes setting clear expectations, delivering on time, and staying within budget, all while maintaining the flexibility to adapt to new challenges. Whether it&#39;s contract negotiation or functional analysis, I approach each task with a growth mindset, always striving to improve. This mindset not only ensures high standards but also makes me an asset to any team, ready to contribute to the success of projects and continuously evolve.
           </p>
         </div>
-
       </div>
     </section>
   );
