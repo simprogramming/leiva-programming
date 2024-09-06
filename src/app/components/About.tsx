@@ -8,7 +8,7 @@ function About() {
         <SocialMediaIcons />
         <h2 className="text-4xl font-bold text-blue-900 mb-6">About</h2>
         <p className="text-lg text-gray-700 mb-6">
-          I am a curious and adventurous individual who loves to explore the world, travel, learn, and discover new things. Whether I&apos;m hiking to the top of a hill in British Columbia or delving into the latest tech trends, my passion for discovery drives me. Captured at the summit after an 10-hour hike, the photo is a testament to my perseverance and love for adventure. As a web developer, I bring this same curiosity and drive to every project, always eager to tackle new challenges and deliver innovative solutions.
+          I’m someone who’s always been driven by curiosity and a thirst for adventure, whether that means traveling to new places, hiking through stunning landscapes, or exploring the latest in technology. The photo you see here was taken at the top of a hill in British Columbia after a challenging 10-hour hike — it’s a reminder of my determination and love for pushing boundaries. As a web developer, I bring that same energy and passion to every project I work on, always eager to embrace new challenges and deliver creative, effective solutions.
         </p>
         <div className="flex flex-col md:flex-row mb-6">
           <div className="w-full md:w-1/2 mb-4 md:mb-0">
@@ -23,18 +23,16 @@ function About() {
           <div className="w-full md:w-1/2 md:pl-8">
             <h3 className="text-2xl font-semibold text-blue-900 mb-2">Full Stack Web Developer</h3>
             <p className="text-lg text-gray-700 mb-4">
-              I specialize in creating responsive, dynamic web applications that meet clients&apos; needs and exceed their expectations.
+              I specialize in building responsive, dynamic web applications tailored to clients’ unique needs, consistently exceeding their expectations.
             </p>
             <ul className="text-lg text-gray-700 mb-4">
               <li><strong>City:</strong> Montreal</li>
               <li><strong>Email:</strong> simonleiva1@hotmail.com</li>
               <li><strong>Education:</strong> <a href="https://www.lewagon.com" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Le Wagon Bootcamp</a></li>
-              <li><strong>Age:</strong> 29</li>
               <li><strong>Languages:</strong> French, English, Spanish</li>
-              <li><strong>Freelance:</strong> Available</li>
             </ul>
             <p className="text-lg text-gray-700">
-              As a skilled web developer, I offer a blend of technical skills and creative vision. I am dedicated to delivering high-quality, efficient, and visually appealing web solutions that drive results and help businesses succeed online.
+              With a unique blend of technical expertise and creative vision, I’m passionate about crafting high-quality, visually appealing web solutions that drive results and help businesses thrive in the digital world.
             </p>
           </div>
         </div>

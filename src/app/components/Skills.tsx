@@ -4,15 +4,15 @@ import SocialMediaIcons from './SocialMediaIcons';
 function Skills() {
   const skills = [
     { name: "Ruby on Rails", value: 90 },
-    { name: "HTML & CSS", value: 80 },
-    { name: "JavaScript & Node.js", value: 80 },
-    { name: "SQL", value: 75 },
+    { name: "HTML & CSS", value: 82 },
+    { name: "JavaScript & Node.js", value: 81 },
+    { name: "SQL", value: 78 },
     { name: "Bootstrap & Tailwind CSS", value: 85 },
-    { name: "React, Typescript & Next.js", value: 65 },
+    { name: "React, Typescript & Next.js", value: 88 },
   ];
 
   return (
-    <section id="skills" className="min-h-screen bg-white p-8 pt-20 pb-20">
+    <section id="skills" className="min-h-screen bg-white p-8 pt-20">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl font-bold text-blue-900 mb-6">Skills</h2>
         <p className="text-lg text-gray-700 mb-8">
@@ -37,10 +37,12 @@ function Skills() {
         <div className="mt-12 mb-12">
           <h3 className="text-3xl font-semibold text-blue-900 mb-4">Project Manager</h3>
           <p className="text-lg text-gray-700 mb-4">
-            I have significant experience in managing project workflows, always striving to improve and learn from each project. I use tools like Jira, Bitbucket, GitHub, and various testing frameworks to ensure organization and quality. My approach involves clear communication with clients and team members, aiming for transparency and collaboration. While I always aim for high standards in writing contracts and conducting functional analysis, I remain humble and open to learning, ensuring projects are delivered on time, within budget, and with a commitment to excellence. This continuous learning mindset allows me to adapt and grow, making me a valuable addition to any tech team.
+            With extensive experience managing diverse projects, I focus on streamlining workflows and enhancing team collaboration. I rely on tools like Jira, Bitbucket, GitHub, and various testing frameworks to keep projects on track and ensure top-notch quality. I believe in open, transparent communication with clients and team members, fostering a collaborative environment where everyone feels heard. 
+          </p>
+          <p className="text-lg text-gray-700 mb-4">
+            My approach emphasizes setting clear expectations, delivering on time, and staying within budget, all while maintaining the flexibility to adapt to new challenges. Whether it's contract negotiation or functional analysis, I approach each task with a growth mindset, always striving to improve. This mindset not only ensures high standards but also makes me an asset to any team, ready to contribute to the success of projects and continuously evolve.
           </p>
         </div>
-        <SocialMediaIcons />
 
       </div>
     </section>

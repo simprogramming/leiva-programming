@@ -4,10 +4,10 @@ import { FaExternalLinkAlt } from 'react-icons/fa';
 function Portfolio() {
   const freelanceProjects = [
     {
-      logo: '/logo/madamesmithlogo.png',
-      name: 'Madame Smith',
-      link: 'https://madame-smith.netlify.app/',
-      description: 'Interactive Restaurant Menu'
+      logo: '/logo/logo.png',
+      name: 'Digital Menu Studio',
+      link: 'https://dms-portfolio.vercel.app/',
+      description: 'Interactive Restaurant Menu Solutions'
     },
     {
       logo: '/logo/atiehatie.png',
@@ -67,7 +67,7 @@ function Portfolio() {
                 className="group block p-6 rounded-lg bg-white hover:bg-customGray transition shadow-md"
               >
                 <div className="flex items-center justify-center mb-4">
-                  <Image src={project.logo} alt={project.name} width={80} height={80} />
+                  <Image src={project.logo} alt={project.name} width={80} height={80} objectFit="contain"/>
                 </div>
                 <h4 className="text-xl mb-2 font-bold text-center text-customDarkBlue">{project.name}</h4>
                 <p className="text-sm text-center text-customDarkBlue">{project.description}</p>
