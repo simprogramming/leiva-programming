@@ -4,6 +4,7 @@ import Portfolio from "./Portfolio";
 import Skills from "./Skills";
 import Footer from "./Footer";
 import Image from 'next/image';
+import Qr from './Qr'
 
 const ContentWrapper = () => {
   return (
@@ -23,6 +24,7 @@ const ContentWrapper = () => {
         <About />
         <Portfolio />
         <Skills />
+        <Qr />
         <Footer />
       </div>
     </div>
