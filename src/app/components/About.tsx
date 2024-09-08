@@ -8,7 +8,7 @@ function About() {
         <SocialMediaIcons />
         <h2 className="text-4xl font-bold text-blue-900 mb-6">About</h2>
         <p className="text-lg text-gray-700 mb-6">
-          I’m someone who’s always been driven by curiosity and a thirst for adventure, whether that means traveling to new places, hiking through stunning landscapes, or exploring the latest in technology. The photo you see here was taken at the top of a hill in British Columbia after a challenging 10-hour hike — it’s a reminder of my determination and love for pushing boundaries. As a web developer, I bring that same energy and passion to every project I work on, always eager to embrace new challenges and deliver creative, effective solutions.
+          I’m someone who’s always been driven by curiosity and a thirst for adventure, whether that means traveling to new places, hiking through stunning landscapes, or exploring the latest in technology. The photo you see here was taken at the top of a hill in British Columbia after a challenging 3-day hike — it’s a reminder of my determination and love for pushing boundaries. As a web developer, I bring that same energy and passion to every project I work on, always eager to embrace new challenges and deliver creative, effective solutions.
         </p>
         <div className="flex flex-col md:flex-row mb-6">
           <div className="w-full md:w-1/2 mb-4 md:mb-0">
