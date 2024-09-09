@@ -34,7 +34,7 @@ function Home() {
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         <a
           href="mailto:simonleiva1@hotmail.com"
-          className="bg-black text-white font-bold py-3 px-6 rounded-lg shadow-lg hover:bg-blue-700 transition duration-300"
+          className="bg-white text-black font-bold py-3 px-6 rounded-lg shadow-lg hover:bg-black hover:text-white transition duration-300"
         >
           Hire Me
         </a>
