@@ -6,7 +6,7 @@ function Skills() {
     { name: "Ruby on Rails", value: 90 },
     { name: "HTML & CSS", value: 82 },
     { name: "JavaScript & Node.js", value: 81 },
-    { name: "SQL", value: 78 },
+    { name: "SQL & PostgreSQL", value: 78 },
     { name: "Bootstrap & Tailwind CSS", value: 85 },
     { name: "React, Typescript & Next.js", value: 88 },
   ];

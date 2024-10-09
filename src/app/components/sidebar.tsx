@@ -83,9 +83,6 @@ const Sidebar = () => {
           <a href="https://www.linkedin.com/in/simonleiva/" target="_blank" className="mr-4 hover:text-[#489BD7]">
             <FaLinkedin size={30} />
           </a>
-          <a href="https://github.com/simprogramming" target="_blank" className="mr-4 hover:text-[#489BD7]">
-            <FaGithub size={30} />
-          </a>
           <a href="https://www.instagram.com/simonleiva/" target="_blank" className="mr-4 hover:text-[#489BD7]">
             <FaInstagram size={30} />
           </a>
